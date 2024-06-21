@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="98" fill="#0B3D91" />
+  
+  <!-- Spaceship body -->
+  <path d="M100 30 L150 170 L100 150 L50 170 Z" fill="#FFD700" stroke="#FFF" stroke-width="2" />
+  
+  <!-- Cockpit -->
+  <circle cx="100" cy="70" r="15" fill="#87CEEB" stroke="#FFF" stroke-width="2" />
+  
+  <!-- Wings -->
+  <path d="M70 120 L30 180 L70 160 Z" fill="#FF4500" stroke="#FFF" stroke-width="2" />
+  <path d="M130 120 L170 180 L130 160 Z" fill="#FF4500" stroke="#FFF" stroke-width="2" />
+  
+  <!-- Flame -->
+  <path d="M85 170 Q100 200 115 170" fill="#FF6347" stroke="#FFF" stroke-width="2" />
+  
+  <!-- Stars -->
+  <circle cx="30" cy="40" r="2" fill="#FFF" />
+  <circle cx="170" cy="60" r="2" fill="#FFF" />
+  <circle cx="150" cy="30" r="2" fill="#FFF" />
+  <circle cx="40" cy="140" r="2" fill="#FFF" />
+  <circle cx="180" cy="130" r="2" fill="#FFF" />
+</svg>

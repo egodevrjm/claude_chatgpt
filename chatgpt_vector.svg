@@ -1,0 +1,26 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main body of the spaceship -->
+  <path d="M500 50 Q450 150 500 250 Q550 150 500 50 Z" fill="grey" stroke="black" stroke-width="5"/>
+  
+  <!-- Left fin -->
+  <path d="M500 250 Q450 350 400 400 Q350 450 300 500 Q350 550 400 600 Q450 650 500 750" fill="blue" stroke="black" stroke-width="5"/>
+  
+  <!-- Right fin -->
+  <path d="M500 250 Q550 350 600 400 Q650 450 700 500 Q650 550 600 600 Q550 650 500 750" fill="blue" stroke="black" stroke-width="5"/>
+  
+  <!-- Thrusters -->
+  <ellipse cx="475" cy="750" rx="25" ry="50" fill="darkgrey" stroke="black" stroke-width="3"/>
+  <ellipse cx="525" cy="750" rx="25" ry="50" fill="darkgrey" stroke="black" stroke-width="3"/>
+  
+  <!-- Panel lines -->
+  <line x1="500" y1="50" x2="500" y2="250" stroke="black" stroke-width="2"/>
+  <line x1="480" y1="100" x2="520" y2="100" stroke="black" stroke-width="2"/>
+  
+  <!-- Accents -->
+  <path d="M500 250 L450 350 L400 400" stroke="neon-green" stroke-width="5"/>
+  <path d="M500 250 L550 350 L600 400" stroke="neon-green" stroke-width="5"/>
+  
+  <!-- Logo area -->
+  <rect x="460" y="300" width="80" height="30" fill="transparent" stroke="black" stroke-width="2"/>
+  <text x="470" y="320" font-family="Verdana" font-size="24" fill="black">LOGO</text>
+</svg>
